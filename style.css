@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.exam {
+    width: 100%;
+    float: left;
+   
+}
+.container {
+    /* margin-top: 49px; */
+    width: 1140px;
+    display: flex;
+    padding: 20px;
+    margin: 75px auto;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: auto; */
+    box-shadow: 0px 0px 59px 11px;
+    height: 589px;
+    border-radius: 20px;
+}
+.left {
+    width: 50%;
+}
+.left h1 {
+    padding-top: 75px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-size: 33px;
+}
+.left p {
+    color: #fff;
+    padding-top: 120px;
+    font-size: 18px;
+}
+.left{
+    
+}
+.left ul {
+    padding-top: 35px;
+    list-style: none;
+}
+.left li {
+    color: #fff;
+    line-height: 20px;
+    font-size: 18px;
+    word-spacing: 7px;
+}
+.left li i {
+    margin-right: 15px;
+    color: #2196f3;
+}
+
+
+.left button {
+    background-color: #2196f3ad;
+    padding: 20px 34px;
+    margin-top: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    border: navajowhite;
+    border-radius: 23px;
+}
+.right {
+    width: 50%;
+}
+.right .form {
+    background-color: #00ffff52;
+    margin-top: 17px;
+    border-radius: 29px;
+    margin-bottom: 25px;
+    padding-bottom: 54px;
+    margin-left: 11px;
+}
+.right h1 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 47px;
+    font-size: 36px;
+}
+.right p {
+    color: #fff;
+    text-align: center;
+    font-size: 21px;
+    padding-top: 29px;
+}
+.right input {
+    display: block;
+    margin-bottom: 20px;
+    width: 467px;
+    margin: 19px auto;
+    height: 52px;
+    font-size: 15px;
+    outline: none;
+    color: #f31717;
+    border: navajowhite;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+.right button {
+    margin: 2px auto;
+    display: block;
+    text-transform: uppercase;
+    padding: 10px 171px;
+    font-size: 17px;
+    color: #fff;
+    background-color: #3030ff96;
+    border: none;
+    word-spacing: 9px;
+    box-sizing: border-box;
+}
+input:focus{
+    background-color: black;
+}
